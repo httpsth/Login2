@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login 2</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <main>
+        <section id="login">
+            
+            <div id="formulario">
+                <h1>Login</h1>
+                <form action="login.php" method="post" autocomplete="on">
+                    <p><strong>Email</strong></p>
+                    <div class="campo">
+                    <label for="ilogin">Email</label>
+                    <input type="email" name="login" id="ilogin" placeholder="Seu Email" autocomplete="email">
+                    </div>
+
+                    <p><strong>Password</strong> <a href="#">Forgot Password ?</a></p>
+                        <div class="campo">
+                        <label for="ipassword">Password</label>
+                        <input type="password" name="password" id="ipassword" placeholder="Sua senha" autocomplete="current-password">
+                    </div>
+
+                    <div id="remember">
+                        <input type="checkbox" name="remember" id="iremember">
+                        <label for="iremember">Remember password</label>
+                    </div>
+
+                    <input type="submit" value="Login">
+
+                    <p><a href="#">Forgot Password ?</a></p>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>
