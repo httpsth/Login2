@@ -82,7 +82,7 @@ div.campo > input {
 }
 
 div.campo > input:focus-within {
-    background-color: rgba(187, 187, 187, 0.404);
+    background-color: rgba(187, 187, 187, 0.405);
 }
 
 div#remember > label {
