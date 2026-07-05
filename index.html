@@ -5,39 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login 2</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/mediaqueries.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <main>
-        <section id="login">
-            
-            <div id="formulario">
-                <h1>Login</h1>
-                <form action="login.php" method="post" autocomplete="on">
-                    <p>Email</p>
-                    <div class="campo">
-                    <label for="ilogin">Email</label>
-                    <input type="email" name="login" id="ilogin" placeholder="Seu Email" autocomplete="email">
-                    </div>
+        <div id="ajuste">
+            <h1>Login</h1>
 
-                    <p>Password <a href="#">Forgot Password ?</a></p>
+            <section id="login">
+                <div id="formulario">
+                    <h1>Login</h1>
+                    <form action="login.php" method="post" autocomplete="on">
+                        <p>Email</p>
                         <div class="campo">
-                        <label for="ipassword">Password</label>
-                        <input type="password" name="password" id="ipassword" placeholder="Sua senha" autocomplete="current-password">
-                    </div>
+                        <label for="ilogin">Email</label>
+                        <input type="email" name="login" id="ilogin" placeholder="Seu Email" autocomplete="email">
+                        </div>
 
-                    <div id="remember">
-                        <input type="checkbox" name="remember" id="iremember">
-                        <label for="iremember">Remember me</label>
-                    </div>
+                        <p>Password <a href="#">Forgot Password ?</a></p>
+                            <div class="campo">
+                            <label for="ipassword">Password</label>
+                            <input type="password" name="password" id="ipassword" placeholder="Sua senha" autocomplete="current-password">
+                        </div>
 
-                    <input type="submit" value="LOGIN">
+                        <div id="remember">
+                            <input type="checkbox" name="remember" id="iremember">
+                            <label for="iremember">Remember me</label>
+                        </div>
 
-                </form>
-            </div>
-        </section>
+                        <input type="submit" value="LOGIN">
+
+                        <div id="mediap">
+                            <p><a href="#">Forgot Password ?</a></p>
+                        </div>
+
+                    </form>
+                </div>
+            </section>
+        </div>
     </main>
     
 </body>

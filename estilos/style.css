@@ -19,6 +19,9 @@ main {
     width: 100vw;
 }
 
+div#ajuste { 
+    color: white;
+}
 section#login { 
     position: absolute;
     top: 50%;
@@ -107,4 +110,8 @@ form > input[type=submit] {
 form > input[type=submit]:hover { 
     background-color: rgb(253, 188, 66);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+div#mediap > p {
+    display: none;
 }
